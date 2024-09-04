@@ -32,8 +32,8 @@ Anda dapat mencoba beberapa aplikasi yang telah saya buat dengan mengunjungi [po
 
 ## Kontak
 
-- **Email**: heriefendi@example.com
-- **LinkedIn**: [linkedin.com/in/heriefendi]([https://linkedin.com/in/heriefendi](https://www.linkedin.com/in/ahmad-heri-0600751a7/))
+- **Email**: hheri58@gmail.com
+- **LinkedIn**: [linkedin.com/in/heriefendi](https://www.linkedin.com/in/ahmad-heri-0600751a7/)
 - **GitHub**: [github.com/heriefendi](https://github.com/heriefendi)
 
 Terima kasih telah mengunjungi portofolio saya. Saya siap untuk berkontribusi dalam proyek-proyek baru dan menantang!
