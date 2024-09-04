@@ -4,12 +4,12 @@ Selamat datang di portofolio saya sebagai seorang programmer. Di sini, Anda dapa
 
 ## Tentang Saya
 
-Saya adalah seorang fresh graduate programmer dengan keahlian dalam pengembangan web, khususnya menggunakan teknologi berikut:
+Saya adalah seorang programmer dengan keahlian dalam pengembangan web, khususnya menggunakan teknologi berikut:
 
 - **Backend Development**: Laravel
 - **Frontend Development**: Vue.js 3 dengan TypeScript
-- **Framework CSS**: Tailwind CSS
-- **Database**: Supabase
+- **Framework CSS**: Tailwind CSS, Bootstrap 
+- **Database**: MySQL 
 
 Saya selalu berusaha untuk terus belajar dan mengembangkan kemampuan saya dalam teknologi terbaru, serta menghasilkan solusi kode yang sederhana dan efisien.
 
@@ -28,7 +28,7 @@ Saya selalu berusaha untuk terus belajar dan mengembangkan kemampuan saya dalam 
 
 ## Coba Aplikasi Saya
 
-Anda dapat mencoba beberapa aplikasi yang telah saya buat dengan mengunjungi [portofolio online saya](https://heriefendi.github.io/Portofolio/).
+Anda dapat mencoba beberapa aplikasi yang telah saya buat dengan mengunjungi [portofolio online saya](https://heriefendi.github.io/Portofolio).
 
 ## Kontak
 
