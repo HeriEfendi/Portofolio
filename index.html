@@ -1,274 +1,834 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmad Heri Efendi | IT Programmer & ERP / Backend Specialist</title>
+  <meta name="description" content="Portofolio resmi Ahmad Heri Efendi, IT Programmer berpengalaman lebih dari 5 tahun dalam pengembangan sistem ERP, optimasi database MariaDB/MySQL jutaan record, Laravel, Vue 3, dan Arch Linux.">
+  <meta name="author" content="Ahmad Heri Efendi">
+  <meta name="keywords" content="Ahmad Heri Efendi, IT Programmer, Laravel, Vue 3, MariaDB, MySQL, ERP Developer, Backend Developer, Sidoarjo, Jawa Timur">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Template Mo">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
-    <title>Portofolio</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/templatemo-art-factory.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/owl-carousel.css">
-
+  <!-- Modern Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-    <!-- ***** Preloader Start ***** -->
-    <div id="preloader">
-        <div class="jumper">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+  <!-- ========================================================================
+       Header / Navigation Bar
+       ======================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-brand" aria-label="Ahmad Heri Efendi Home">
+        <span class="brand-icon">H</span>
+        <span>Heri Efendi<span class="gradient-text">.dev</span></span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" class="nav-link active">Beranda</a></li>
+        <li><a href="#mindset" class="nav-link">Keahlian</a></li>
+        <li><a href="#experience" class="nav-link">Pengalaman</a></li>
+        <li><a href="#projects" class="nav-link">Proyek</a></li>
+        <li><a href="#education" class="nav-link">Pendidikan</a></li>
+        <li><a href="#contact" class="nav-link">Kontak</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="assets/docs/Ahmad_Heri_Efendi_Resume.pdf" target="_blank" download class="btn btn-secondary btn-sm" id="navResumeBtn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          <span>Unduh CV</span>
+        </a>
+        <a href="https://wa.me/6285755137816" target="_blank" rel="noopener" class="btn btn-primary btn-sm" id="navContactBtn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span>WhatsApp</span>
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Buka Menu Navigasi" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+        </button>
+      </div>
     </div>
-    <!-- ***** Preloader End ***** -->
+  </header>
 
-
-    <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
-                        <a href="#" class="logo">Programer</a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                            <li class="scroll-to-section"><a href="#welcome" class="active">About Me</a></li>
-                            <li class="scroll-to-section"><a href="#about">Resume</a></li>
-                            <li class="scroll-to-section"><a href="#services">Portofolio</a></li>
-                            <li class="scroll-to-section"><a href="#contact-us">Contact</a></li>
-                        </ul>
-                        <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
-                        <!-- ***** Menu End ***** -->
-                    </nav>
-                </div>
+  <main>
+    <!-- ======================================================================
+         Hero Section
+         ====================================================================== -->
+    <div class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="status-pill">
+              <span class="pulse-dot"></span>
+              <span>Tersedia untuk Proyek & Kolaborasi Enterprise</span>
             </div>
-        </div>
-    </header>
-    <!-- ***** Header Area End ***** -->
 
+            <h1 class="hero-title">
+              Hi, Saya <span class="gradient-text">Ahmad Heri Efendi</span>
+            </h1>
 
-    <!-- ***** Welcome Area Start ***** -->
-    <div class="welcome-area" id="welcome">
-
-        <!-- ***** Header Text Start ***** -->
-        <div class="header-text">
-            <div class="container">
-                <div class="row">
-                    <div class="left-text col-lg-6 col-md-6 col-sm-12 col-xs-12"
-                        data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                        <h1>Hi, i'm <strong>Ahmad Heri Efendi</strong></h1>
-                        <p>
-                            a passionate programmer specializing in web application development with Laravel, Vue.js, and TypeScript. With a strong background in both backend and frontend technologies, I am dedicated to creating innovative and efficient software solutions.
-                        </p>
-                        <a href="#about" class="main-button-slider">Find Out More</a>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"
-                        data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                        <img src="assets/images/slider-icon.png" class="rounded img-fluid d-block mx-auto"
-                            alt="First Vector Graphic">
-                    </div>
-                </div>
+            <div class="hero-role">
+              <span>IT Programmer & ERP / Backend Specialist</span>
             </div>
+
+            <p class="hero-desc">
+              Praktisi teknologi dengan pengalaman <strong>lebih dari 5 tahun</strong> dalam rancang bangun aplikasi web enterprise, sistem ERP, dan integrasi proses bisnis. Berfokus pada <em>high-performance backend</em>, optimasi query database berukuran masif (ratusan ribu hingga jutaan record), zero N+1 query, serta arsitektur yang scalable.
+            </p>
+
+            <div class="hero-tech-highlights">
+              <span class="tech-tag"><strong style="color:#06b6d4;">Backend:</strong> Laravel & PHP</span>
+              <span class="tech-tag"><strong style="color:#38bdf8;">Frontend:</strong> Vue.js 3 (Options API) & TS</span>
+              <span class="tech-tag"><strong style="color:#10b981;">Database:</strong> MariaDB & Redis</span>
+              <span class="tech-tag"><strong style="color:#a855f7;">OS:</strong> Arch Linux</span>
+            </div>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary" id="heroExploreBtn">
+                <span>Lihat Portofolio</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="https://wa.me/6285755137816?text=Halo%20Mas%20Ahmad%20Heri%20Efendi,%20saya%20tertarik%20berdiskusi%20tentang%20proyek/peluang%20IT." target="_blank" rel="noopener" class="btn btn-success" id="heroWaBtn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <span>Chat WhatsApp</span>
+              </a>
+              <a href="assets/docs/Ahmad_Heri_Efendi_Resume.pdf" target="_blank" download class="btn btn-secondary" id="heroDownloadCvBtn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                <span>Unduh Resume (PDF)</span>
+              </a>
+            </div>
+
+            <div class="hero-socials">
+              <a href="https://github.com/heriefendi" target="_blank" rel="noopener" class="social-btn" title="GitHub Profile" id="githubProfileLink">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/ahmad-heri-0600751a7/" target="_blank" rel="noopener" class="social-btn" title="LinkedIn Profile" id="linkedinProfileLink">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </a>
+              <a href="mailto:hheri58@gmail.com" class="social-btn" title="Kirim Email" id="emailDirectLink">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </a>
+              <span style="font-size: 0.9rem; color: var(--text-dim); margin-left: 6px;">📍 Sidoarjo, Jawa Timur</span>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="avatar-wrapper">
+              <div class="avatar-inner">
+                <img src="assets/images/profile-heri.png" alt="Ahmad Heri Efendi - IT Programmer" class="avatar-img" width="338" height="506">
+              </div>
+
+              <!-- Floating Badges -->
+              <div class="floating-badge badge-exp">
+                <div class="badge-icon cyan">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+                </div>
+                <div class="badge-text">
+                  <span class="badge-title">&gt; 5 Tahun</span>
+                  <span class="badge-sub">Pengalaman Industri IT</span>
+                </div>
+              </div>
+
+              <div class="floating-badge badge-arch">
+                <div class="badge-icon emerald">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 17l6-6-6-6"/><path d="M12 19h8"/></svg>
+                </div>
+                <div class="badge-text">
+                  <span class="badge-title">Arch Linux</span>
+                  <span class="badge-sub">Dev & Production OS</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- ***** Header Text End ***** -->
+      </div>
     </div>
-    <!-- ***** Welcome Area End ***** -->
 
-
-    <!-- ***** Features Big Item Start ***** -->
-    <section class="section" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 col-md-12 col-sm-12"
-                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <img src="assets/images/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
-                </div>
-                <div class="right-text col-lg-5 col-md-12 col-sm-12 mobile-top-fix">
-                    <div class="left-heading">
-                        <h5>Apa yang saya lakukan</h5>
-                    </div>
-                    <div class="left-text">
-                        <br><b>Pengembangan Backend:</b> Membangun API yang handal dan skalabel menggunakan Laravel, dengan pengalaman dalam mengelola sistem antrean dan database.
-                        <br><br><b>Pengembangan Frontend:</b> Menciptakan antarmuka pengguna yang responsif dan intuitif menggunakan Vue.js 3 dan TypeScript, dengan penekanan pada desain yang modern dan fungsional.
-                        <br><br><b>IT Support:</b> Memberikan dukungan teknis untuk memastikan sistem dan aplikasi berjalan dengan baik, serta menyelesaikan masalah teknis yang mungkin timbul.
-                        <br><br><a href="#about2" class="main-button">Discover More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="hr"></div>
-                </div>
-            </div>
+    <!-- ======================================================================
+         Metrics Ribbon
+         ====================================================================== -->
+    <div class="metrics-ribbon">
+      <div class="container">
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <div class="metric-value gradient-text">5+ Thn</div>
+            <div class="metric-label">Pengalaman Rekayasa Perangkat Lunak</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value gradient-text">3 Entitas</div>
+            <div class="metric-label">Perusahaan Enterprise & Bisnis Operasional</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value gradient-emerald">&gt; 1 Juta</div>
+            <div class="metric-label">Record Data Ditangani (High-Throughput)</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value gradient-text">Zero N+1</div>
+            <div class="metric-label">Standar Arsitektur Database & Memory Efficient</div>
+          </div>
         </div>
+      </div>
+    </div>
+
+    <!-- ======================================================================
+         Mindset & Engineering DNA
+         ====================================================================== -->
+    <section class="section" id="mindset">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Prinsip & Standar Rekayasa</span>
+          <h2 class="section-title">Dibangun untuk Skalabilitas, Kecepatan, dan Ketahanan</h2>
+          <p class="section-subtitle">
+            Setiap baris kode dirancang untuk beban kerja nyata di lingkungan *production*, mengutamakan efisiensi memori, skalabilitas query database, dan arsitektur yang bersih.
+          </p>
+        </div>
+
+        <div class="dna-grid">
+          <div class="dna-card">
+            <div class="dna-icon-wrap">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <h3 class="dna-title">Dataset Skala Besar & Memory Protection</h3>
+            <p class="dna-desc">
+              Berpengalaman memproses dataset ratusan ribu hingga jutaan data tanpa resiko <em>memory overflow</em>. Menggunakan teknik chunking (<code>chunkById</code>, <code>cursor</code>), queue/job terdistribusi, serta database streaming daripada memuat data mentah ke memori server.
+            </p>
+          </div>
+
+          <div class="dna-card">
+            <div class="dna-icon-wrap">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            </div>
+            <h3 class="dna-title">Optimasi Query & Zero Duplicate Scan</h3>
+            <p class="dna-desc">
+              Analisis mendalam terhadap eksekusi query (EXPLAIN, database indexing, composite index, filtering & agregasi di level database). Mencegah masalah N+1, menghapus query redundan, dan memastikan eksekusi MariaDB/MySQL berjalan sub-milidetik.
+            </p>
+          </div>
+
+          <div class="dna-card">
+            <div class="dna-icon-wrap">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3 class="dna-title">Enterprise Architecture & Clean Code</h3>
+            <p class="dna-desc">
+              Penerapan pola terstruktur pada Laravel backend dan Vue.js 3 (Options API) + TypeScript + Tailwind CSS pada frontend. Integrasi server-side DataTables (Yajra), sistem antrean (Queue/Job), dan caching berkinerja tinggi menggunakan Redis.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
-    <!-- ***** Features Big Item End ***** -->
 
-
-    <!-- ***** Features Big Item Start ***** -->
-    <section class="section" id="about2">
-        <div class="container">
-            <div class="row">
-                <div class="left-text col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix">
-                    <div class="left-heading">
-                        <h5>Curabitur aliquam eget tellus id porta</h5>
-                    </div>
-                    <p>Proin justo sapien, posuere suscipit tortor in, fermentum mattis elit. Aenean in feugiat purus.
-                    </p>
-                    <ul>
-                        <li>
-                            <img src="assets/images/about-icon-01.png" alt="">
-                            <div class="text">
-                                <h6>Nulla ultricies risus quis risus</h6>
-                                <p>You can use this website template for commercial or non-commercial purposes.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="assets/images/about-icon-02.png" alt="">
-                            <div class="text">
-                                <h6>Donec consequat commodo purus</h6>
-                                <p>You have no right to re-distribute this template as a downloadable ZIP file on any
-                                    website.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="assets/images/about-icon-03.png" alt="">
-                            <div class="text">
-                                <h6>Sed placerat sollicitudin mauris</h6>
-                                <p>If you have any question or comment, please <a rel="nofollow"
-                                        href="https://templatemo.com/contact">contact</a> us on TemplateMo.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="right-image col-lg-7 col-md-12 col-sm-12 mobile-bottom-fix-big"
-                    data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                    <img src="assets/images/right-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
-                </div>
-            </div>
+    <!-- ======================================================================
+         Tech Stack & Core Competencies Matrix
+         ====================================================================== -->
+    <section class="section" id="skills" style="background: rgba(14, 22, 38, 0.4);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Keahlian Teknis</span>
+          <h2 class="section-title">Matriks Teknologi & Keahlian</h2>
+          <p class="section-subtitle">
+            Kombinasi teknologi yang dikuasai secara mendalam untuk menangani kebutuhan backend, frontend modern, database, dan infrastruktur sistem.
+          </p>
         </div>
+
+        <div class="skills-grid">
+          <!-- Backend -->
+          <div class="skill-category">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <div>
+                <h3 class="category-title">Backend Architecture</h3>
+                <span class="category-desc">Robust APIs, Scalable Services & Micro-Jobs</span>
+              </div>
+            </div>
+            <div class="skills-list">
+              <span class="skill-pill featured">Laravel (Latest)</span>
+              <span class="skill-pill featured">PHP (Modern & Typed)</span>
+              <span class="skill-pill">Node.js</span>
+              <span class="skill-pill">RESTful API Design</span>
+              <span class="skill-pill">Queue / Job Workers</span>
+              <span class="skill-pill">Batching & Chunking</span>
+              <span class="skill-pill">Redis Caching</span>
+              <span class="skill-pill">Eloquent & Query Builder</span>
+            </div>
+          </div>
+
+          <!-- Frontend -->
+          <div class="skill-category">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+              </div>
+              <div>
+                <h3 class="category-title">Frontend Development</h3>
+                <span class="category-desc">Interactive, Responsive & Modular UIs</span>
+              </div>
+            </div>
+            <div class="skills-list">
+              <span class="skill-pill featured">Vue.js 3 (Options API)</span>
+              <span class="skill-pill featured">TypeScript</span>
+              <span class="skill-pill featured">Tailwind CSS</span>
+              <span class="skill-pill">React.js</span>
+              <span class="skill-pill">JavaScript (ES6+)</span>
+              <span class="skill-pill">HTML5 & Modern CSS</span>
+              <span class="skill-pill">Bootstrap</span>
+              <span class="skill-pill">jQuery</span>
+            </div>
+          </div>
+
+          <!-- Database & Data -->
+          <div class="skill-category">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+              </div>
+              <div>
+                <h3 class="category-title">Database & Query Tuning</h3>
+                <span class="category-desc">High-load Storage, Indexing & Server-side Pipelines</span>
+              </div>
+            </div>
+            <div class="skills-list">
+              <span class="skill-pill featured">MariaDB</span>
+              <span class="skill-pill featured">MySQL</span>
+              <span class="skill-pill">Redis</span>
+              <span class="skill-pill">SQL Server</span>
+              <span class="skill-pill">Yajra DataTables Server-side</span>
+              <span class="skill-pill">Query Optimization & EXPLAIN</span>
+              <span class="skill-pill">Index Design</span>
+              <span class="skill-pill">Data Import/Export Pipelines</span>
+            </div>
+          </div>
+
+          <!-- Infrastructure & Systems -->
+          <div class="skill-category">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>
+              </div>
+              <div>
+                <h3 class="category-title">Infrastructure & Embedded Tech</h3>
+                <span class="category-desc">OS Administration, Networking & Automation</span>
+              </div>
+            </div>
+            <div class="skills-list">
+              <span class="skill-pill featured">Arch Linux (Primary OS)</span>
+              <span class="skill-pill">Windows 11</span>
+              <span class="skill-pill">Nginx Web Server</span>
+              <span class="skill-pill">Networking & Winbox (MikroTik)</span>
+              <span class="skill-pill">Git & GitHub</span>
+              <span class="skill-pill">Server Maintenance</span>
+              <span class="skill-pill">Troubleshooting Hardware/Software</span>
+              <span class="skill-pill">Arduino & PLC</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <!-- ***** Features Big Item End ***** -->
 
+    <!-- ======================================================================
+         Experience Section (Interactive Timeline)
+         ====================================================================== -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Riwayat Profesional</span>
+          <h2 class="section-title">Pengalaman Kerja di Industri</h2>
+          <p class="section-subtitle">
+            Lebih dari 5 tahun perjalanan membangun dan mengoptimalkan sistem enterprise, memigrasi sistem legacy, serta menjaga kestabilan aplikasi production.
+          </p>
+        </div>
 
-    <!-- ***** Features Small Start ***** -->
-    <section class="section" id="services">
-        <div class="container">
-            <div class="row">
-                <div class="owl-carousel owl-theme">
-                    <div class="item service-item">
-                        <div class="icon">
-                            <i><img src="assets/images/service-icon-01.png" alt=""></i>
-                        </div>
-                        <h5 class="service-title">Website</h5>
-                        <p>Temukan kumpulan proyek yang telah saya kerjakan di sini. Setiap proyek mencerminkan keterampilan dan teknologi yang saya kuasai, dengan detail mengenai tujuan, teknologi yang digunakan, dan hasil yang dicapai.</p>
-                        <a href="https://heri-efendi.netlify.app/dashboard" onclick="closeCurrentTab()" target="_blank" class="main-button">Read More</a>
-                    </div>
+        <div class="timeline-wrap">
+          <!-- Experience 1 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="company-title">Kotakin Group</h3>
+                  <div class="timeline-role">Information Technology Programmer</div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Features Small End ***** -->
-
-
-    <!-- ***** Contact Us Start ***** -->
-    <section class="section" id="contact-us">
-        <div class="container-fluid">
-            <div class="contact-form">
-                <form id="contact" action="" method="post">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12">
-                            <fieldset>
-                                <input name="name" type="text" id="name" placeholder="Full Name" required=""
-                                    class="contact-field">
-                            </fieldset>
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                            <fieldset>
-                                <input name="email" type="text" id="email" placeholder="E-mail" required=""
-                                    class="contact-field">
-                            </fieldset>
-                        </div>
-                        <div class="col-lg-12">
-                            <fieldset>
-                                <textarea name="message" rows="6" id="message" placeholder="Your Message" required=""
-                                    class="contact-field"></textarea>
-                            </fieldset>
-                        </div>
-                        <div class="col-lg-12">
-                            <fieldset>
-                                <button type="submit" id="form-submit" class="main-button">Send It</button>
-                            </fieldset>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Contact Us End ***** -->
-
-
-    <!-- ***** Footer Start ***** -->
-    <footer>
-        <div class="container mw-50">
-            <div class="row">
-                <!-- <div class="col-lg-7 col-md-12 col-sm-12">
-                    <p class="copyright">Copyright &copy; 2020 Art Factory Company
-                        . Design: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
-                </div> -->
-                <div class="col-lg-5 col-md-12 col-sm-12">
-                    <ul class="social">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
+                <div class="company-period">
+                  <span>2023 — Sekarang</span>
                 </div>
+              </div>
+              <ul class="timeline-list">
+                <li>Mengembangkan arsitektur backend dan antarmuka frontend untuk sistem enterprise ERP perusahaan.</li>
+                <li>Membangun dan mengintegrasikan ekosistem multi-channel marketplace dengan alur kerja operasional bisnis utama.</li>
+                <li>Merancang, mengimplementasikan, dan memelihara REST API internal untuk sinkronisasi data antar-layanan secara real-time.</li>
+                <li>Melakukan optimasi performa query database skala besar dan alokasi memori aplikasi pada lingkungan berbeban tinggi.</li>
+                <li>Melakukan pemeliharaan rutin, monitoring proaktif, dan penanganan insiden sistem production secara cepat (zero downtime).</li>
+              </ul>
             </div>
+          </div>
+
+          <!-- Experience 2 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="company-title">PT Lestari Mulia Sentosa</h3>
+                  <div class="timeline-role">Information Technology Programmer</div>
+                </div>
+                <div class="company-period">
+                  <span>2022 — 2023</span>
+                </div>
+              </div>
+              <ul class="timeline-list">
+                <li>Memimpin migrasi sistem legacy perusahaan dari Delphi dan Native PHP menuju arsitektur modern berbasis framework Laravel.</li>
+                <li>Membangun dan mengembangkan aplikasi internal perusahaan yang terintegrasi antar divisi.</li>
+                <li>Mengelola database operasional, menyusun skema relasional, dan memenuhi kebutuhan reporting serta analisis data bisnis.</li>
+                <li>Melakukan pemeliharaan berkala dan penambahan fitur-fitur baru sesuai dinamika kebutuhan operasional perusahaan.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Experience 3 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="company-title">PT Omega Mas</h3>
+                  <div class="timeline-role">IT Programmer & IT Support</div>
+                </div>
+                <div class="company-period">
+                  <span>2019 — 2022</span>
+                </div>
+              </div>
+              <ul class="timeline-list">
+                <li>Sukses memigrasikan sistem internal perusahaan berbasis desktop VB.Net menjadi aplikasi web modern yang mudah diakses lintas perangkat.</li>
+                <li>Mengembangkan modul-modul aplikasi web untuk meningkatkan efisiensi operasional harian staff dan manajemen.</li>
+                <li>Melakukan troubleshooting menyeluruh terhadap permasalahan perangkat keras (hardware), software, dan sistem operasi.</li>
+                <li>Bertanggung jawab atas pemeliharaan server lokal, stabilitas jaringan komputer kantor, instalasi kabel, serta administrasi MikroTik/Winbox.</li>
+                <li>Memberikan dukungan teknis cepat tanggap kepada seluruh pengguna dan staff perusahaan.</li>
+              </ul>
+            </div>
+          </div>
         </div>
-    </footer>
+      </div>
+    </section>
 
-    <!-- jQuery -->
-    <script src="assets/js/jquery-2.1.0.min.js"></script>
+    <!-- ======================================================================
+         Projects Showcase Section
+         ====================================================================== -->
+    <section class="section" id="projects" style="background: rgba(14, 22, 38, 0.4);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Portofolio Terpilih</span>
+          <h2 class="section-title">Karya & Solusi Rekayasa Perangkat Lunak</h2>
+          <p class="section-subtitle">
+            Kumpulan proyek nyata yang mencerminkan pemecahan masalah bisnis, migrasi sistem kompleks, dan aplikasi berbasis web dengan performa tinggi.
+          </p>
+        </div>
 
-    <!-- Bootstrap -->
-    <script src="assets/js/popper.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+        <!-- Filter Controls -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">Semua Proyek</button>
+          <button class="filter-btn" data-filter="github">GitHub & Open Source</button>
+          <button class="filter-btn" data-filter="erp">Enterprise & ERP</button>
+          <button class="filter-btn" data-filter="desktop">Desktop & Tools</button>
+          <button class="filter-btn" data-filter="mobile">Mobile & Web Apps</button>
+          <button class="filter-btn" data-filter="optimization">Migrasi & Optimasi</button>
+        </div>
 
-    <!-- Plugins -->
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/scrollreveal.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/imgfix.min.js"></script>
+        <div class="projects-grid">
+          <!-- Project: DB-Sync-Desktop-Client (GitHub Public) -->
+          <article class="project-card" data-category="github desktop optimization">
+            <div class="project-body">
+              <div class="project-top">
+                <span class="project-type-tag" style="background: rgba(16, 185, 129, 0.15); color: #34d399; border-color: rgba(16, 185, 129, 0.3);">GitHub • Desktop Tool</span>
+                <div class="project-links">
+                  <a href="https://github.com/HeriEfendi/DB-Sync-Desktop-Client" target="_blank" rel="noopener" class="project-link-icon" title="Lihat di GitHub Repository">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                  </a>
+                </div>
+              </div>
+              <h3 class="project-title">DB-Sync Desktop Client (Tauri + Rust + Vue)</h3>
+              <p class="project-desc">
+                Aplikasi desktop berkinerja tinggi untuk menyalin dan sinkronisasi data dari PhpMyAdmin (PMA) Remote ke database lokal MariaDB/MySQL. Menjaga integritas data dengan engine Rust yang aman, cepat, dan hemat sumber daya.
+              </p>
+              <div class="project-metrics-box">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span>Tauri v2 + Rust Core • Fast Remote PMA Sync</span>
+              </div>
+              <div class="project-tags">
+                <span class="tag-mini">Rust</span>
+                <span class="tag-mini">Tauri v2</span>
+                <span class="tag-mini">Vue.js 3.5</span>
+                <span class="tag-mini">MySQL / MariaDB</span>
+              </div>
+            </div>
+          </article>
 
-    <!-- Global Init -->
-    <script src="assets/js/custom.js"></script>
+          <!-- Project: AgriPro-Mobile (GitHub Public) -->
+          <article class="project-card" data-category="github mobile web">
+            <div class="project-body">
+              <div class="project-top">
+                <span class="project-type-tag" style="background: rgba(16, 185, 129, 0.15); color: #34d399; border-color: rgba(16, 185, 129, 0.3);">GitHub • Offline-First Mobile</span>
+                <div class="project-links">
+                  <a href="https://github.com/HeriEfendi/AgriPro-Mobile" target="_blank" rel="noopener" class="project-link-icon" title="Lihat di GitHub Repository">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                  </a>
+                </div>
+              </div>
+              <h3 class="project-title">AgriPro Mobile (Agricultural Super-App)</h3>
+              <p class="project-desc">
+                Aplikasi mobile Super-App offline-first yang dirancang khusus untuk sektor pertanian, pertambakan, dan peternakan di wilayah rural dengan zero-connectivity (tanpa internet konstan).
+              </p>
+              <div class="project-metrics-box">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span>Offline-First Storage • Zero-Connectivity Support</span>
+              </div>
+              <div class="project-tags">
+                <span class="tag-mini">Vue.js 3.5</span>
+                <span class="tag-mini">Ionic Vue 8</span>
+                <span class="tag-mini">Capacitor 6</span>
+                <span class="tag-mini">Tailwind CSS</span>
+              </div>
+            </div>
+          </article>
 
+          <!-- Project: HK_UMKM (GitHub Public) -->
+          <article class="project-card" data-category="github mobile erp">
+            <div class="project-body">
+              <div class="project-top">
+                <span class="project-type-tag" style="background: rgba(16, 185, 129, 0.15); color: #34d399; border-color: rgba(16, 185, 129, 0.3);">GitHub • UMKM Solution</span>
+                <div class="project-links">
+                  <a href="https://github.com/HeriEfendi/HK_UMKM" target="_blank" rel="noopener" class="project-link-icon" title="Lihat di GitHub Repository">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                  </a>
+                </div>
+              </div>
+              <h3 class="project-title">HK UMKM (Produktivitas & Keuangan UMKM)</h3>
+              <p class="project-desc">
+                Aplikasi mobile dan Progressive Web App (PWA) all-in-one untuk produktivitas tim (To-Do, kolaborasi tim, ceklok presensi harian) dan pencatatan buku kas keuangan serta manajemen rantai pasok UMKM.
+              </p>
+              <div class="project-metrics-box">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span>PWA & Android Native • Manajemen Kas & Tugas</span>
+              </div>
+              <div class="project-tags">
+                <span class="tag-mini">Vue.js 3</span>
+                <span class="tag-mini">Ionic</span>
+                <span class="tag-mini">Capacitor</span>
+                <span class="tag-mini">PWA</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project: PahamTukang (GitHub Public) -->
+          <article class="project-card" data-category="github mobile desktop">
+            <div class="project-body">
+              <div class="project-top">
+                <span class="project-type-tag" style="background: rgba(16, 185, 129, 0.15); color: #34d399; border-color: rgba(16, 185, 129, 0.3);">GitHub • Multi-Platform</span>
+                <div class="project-links">
+                  <a href="https://github.com/HeriEfendi/PahamTukang" target="_blank" rel="noopener" class="project-link-icon" title="Lihat di GitHub Repository">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                  </a>
+                </div>
+              </div>
+              <h3 class="project-title">PahamTukang (DIY Home Improvement Guide)</h3>
+              <p class="project-desc">
+                Aplikasi panduan DIY pertukangan rumah tangga (kelistrikan, pipa/sanitasi, perkayuan) yang berjalan offline-first tanpa server, ditargetkan untuk Android (Capacitor), Desktop (Tauri), dan Web dari satu basis kode.
+              </p>
+              <div class="project-metrics-box">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span>Single Codebase: Android + Desktop (Tauri) + Web</span>
+              </div>
+              <div class="project-tags">
+                <span class="tag-mini">Vue.js 3</span>
+                <span class="tag-mini">Tauri</span>
+                <span class="tag-mini">Capacitor</span>
+                <span class="tag-mini">Vite</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project: Enterprise ERP & Marketplace Integration -->
+          <article class="project-card" data-category="erp">
+            <div class="project-body">
+              <div class="project-top">
+                <span class="project-type-tag">Enterprise ERP</span>
+                <div class="project-links">
+                  <a href="#contact" class="project-link-icon" title="Konsultasi Proyek ERP">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                </div>
+              </div>
+              <h3 class="project-title">Enterprise ERP & Multi-Channel Marketplace Integration</h3>
+              <p class="project-desc">
+                Sistem ERP terpadu untuk integrasi operasional bisnis retail/distribusi dengan berbagai marketplace. Menangani sinkronisasi stok, pesanan otomatis, invoicing, dan modul logistik dengan integritas data tinggi.
+              </p>
+              <div class="project-metrics-box">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span>Skala jutaan transaksi & sinkronisasi multi-toko</span>
+              </div>
+              <div class="project-tags">
+                <span class="tag-mini">Laravel</span>
+                <span class="tag-mini">Vue.js 3</span>
+                <span class="tag-mini">MariaDB</span>
+                <span class="tag-mini">Redis Queue</span>
+                <span class="tag-mini">REST API</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project: Legacy Architecture Migration -->
+          <article class="project-card" data-category="optimization">
+            <div class="project-body">
+              <div class="project-top">
+                <span class="project-type-tag">Modernisasi Sistem</span>
+                <div class="project-links">
+                  <a href="#contact" class="project-link-icon" title="Konsultasi Migrasi">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                </div>
+              </div>
+              <h3 class="project-title">Legacy Architecture Migration (Delphi & Native PHP to Laravel)</h3>
+              <p class="project-desc">
+                Restrukturisasi dan peremajaan sistem internal dari desktop Delphi dan Native PHP warisan menjadi sistem web modular Laravel. Meliputi perancangan ulang relasi database dan penyusunan pipeline reporting cepat.
+              </p>
+              <div class="project-metrics-box">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span>Zero Data Loss saat migrasi jutaan data historis</span>
+              </div>
+              <div class="project-tags">
+                <span class="tag-mini">Laravel</span>
+                <span class="tag-mini">MariaDB</span>
+                <span class="tag-mini">Yajra DataTables</span>
+                <span class="tag-mini">Query Tuning</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project: Interactive Dashboard Live Demo -->
+          <article class="project-card" data-category="web erp">
+            <div class="project-body">
+              <div class="project-top">
+                <span class="project-type-tag">Live Demo Dashboard</span>
+                <div class="project-links">
+                  <a href="https://heri-efendi.netlify.app/dashboard" target="_blank" rel="noopener" class="project-link-icon" title="Buka Live Demo Dashboard">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                </div>
+              </div>
+              <h3 class="project-title">Interactive Operational & Analytics Dashboard</h3>
+              <p class="project-desc">
+                Aplikasi dashboard interaktif modern dengan visualisasi data kinerja bisnis, widget metrik operasional, filter dinamis, dan state management modular.
+              </p>
+              <div class="project-metrics-box">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span>Live deployment di Netlify</span>
+              </div>
+              <div class="project-tags">
+                <span class="tag-mini">Vue.js 3</span>
+                <span class="tag-mini">TypeScript</span>
+                <span class="tag-mini">Tailwind CSS</span>
+                <span class="tag-mini">Chart Analytics</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Education Section
+         ====================================================================== -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Latar Belakang Akademis</span>
+          <h2 class="section-title">Pendidikan Formal</h2>
+          <p class="section-subtitle">
+            Fondasi teori komputasi, rekayasa perangkat lunak, dan arsitektur sistem komputer yang mendasari keahlian teknis saat ini.
+          </p>
+        </div>
+
+        <div class="education-grid">
+          <div class="edu-card">
+            <div class="edu-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <div class="edu-details">
+              <h3 class="edu-school">STMIK Asia Malang</h3>
+              <div class="edu-major">S1 - Sistem Komputer</div>
+              <div class="edu-meta">
+                <span>2015 — 2019</span>
+                <span class="gpa-badge">GPA: 3.70 / 4.00</span>
+              </div>
+              <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 8px;">
+                Fokus studi meliputi arsitektur komputer, jaringan, pemrograman sistem, basis data, dan mikrokontroler.
+              </p>
+            </div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </div>
+            <div class="edu-details">
+              <h3 class="edu-school">SMK Taruna Jaya Prawira</h3>
+              <div class="edu-major">Rekayasa Perangkat Lunak (RPL)</div>
+              <div class="edu-meta">
+                <span>2012 — 2015</span>
+              </div>
+              <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 8px;">
+                Pelatihan kejuruan intensif dalam algoritma pemrograman, logika basis data relasional, dan dasar-dasar aplikasi komputer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Contact & Discussion Section
+         ====================================================================== -->
+    <section class="section" id="contact" style="background: rgba(14, 22, 38, 0.4);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Hubungi Saya</span>
+          <h2 class="section-title">Mari Berdiskusi & Berkolaborasi</h2>
+          <p class="section-subtitle">
+            Terbuka untuk diskusi proyek enterprise, optimasi sistem berkinerja tinggi, konsultasi migrasi database, ataupun peluang karir.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Direct Contact Information -->
+          <div class="contact-info-card">
+            <div>
+              <h3 style="font-size: 1.35rem; margin-bottom: 8px;">Informasi Kontak Langsung</h3>
+              <p style="font-size: 0.95rem; color: var(--text-muted);">
+                Silakan hubungi saya melalui saluran komunikasi di bawah ini untuk respon yang cepat.
+              </p>
+            </div>
+
+            <!-- WhatsApp Item -->
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="contact-item-content">
+                <span class="contact-item-label">WhatsApp / Telepon</span>
+                <span class="contact-item-value">+62 857-5513-7816</span>
+              </div>
+              <button class="copy-btn" data-copy="+6285755137816" title="Salin Nomor HP" aria-label="Salin nomor WhatsApp">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              </button>
+            </div>
+
+            <!-- Email Item -->
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="contact-item-content">
+                <span class="contact-item-label">Email Profesional</span>
+                <span class="contact-item-value">hheri58@gmail.com</span>
+              </div>
+              <button class="copy-btn" data-copy="hheri58@gmail.com" title="Salin Email" aria-label="Salin alamat email">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              </button>
+            </div>
+
+            <!-- Location Item -->
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="contact-item-content">
+                <span class="contact-item-label">Lokasi Domisili</span>
+                <span class="contact-item-value">Sidoarjo, Jawa Timur, Indonesia</span>
+              </div>
+            </div>
+
+            <!-- Action Quick Button -->
+            <div style="margin-top: 8px;">
+              <a href="https://wa.me/6285755137816?text=Halo%20Mas%20Ahmad%20Heri%20Efendi,%20saya%20ingin%20berdiskusi." target="_blank" rel="noopener" class="btn btn-success" style="width: 100%;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <span>Mulai Percakapan di WhatsApp</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Interactive Message Form -->
+          <div class="contact-form-card">
+            <h3 style="font-size: 1.35rem; margin-bottom: 8px;">Kirim Pesan Instan</h3>
+            <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 24px;">
+              Tulis pesan Anda dan sistem akan memformatnya secara rapi untuk dikirimkan via WhatsApp.
+            </p>
+
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="nameInput" class="form-label">Nama Lengkap *</label>
+                <input type="text" id="nameInput" class="form-control" placeholder="Contoh: Budi Santoso" required>
+              </div>
+
+              <div class="form-group">
+                <label for="subjectInput" class="form-label">Subjek / Topik Bahasan</label>
+                <input type="text" id="subjectInput" class="form-control" placeholder="Contoh: Pengembangan Sistem ERP / Penawaran Kerjasama">
+              </div>
+
+              <div class="form-group">
+                <label for="messageInput" class="form-label">Pesan / Kebutuhan Proyek *</label>
+                <textarea id="messageInput" class="form-control" rows="4" placeholder="Jelaskan kebutuhan sistem, tantangan teknis, atau pertanyaan Anda..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" id="formSubmitBtn" style="width: 100%;">
+                <span>Kirimkan Pesan via WhatsApp</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       Footer
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div>
+        <p>&copy; 2026 <strong>Ahmad Heri Efendi</strong>. Hak Cipta Dilindungi.</p>
+        <p style="font-size: 0.8rem; color: var(--text-dim); margin-top: 4px;">
+          Dibangun dengan performa tinggi menggunakan HTML5, Modern Vanilla CSS, dan JavaScript.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#hero" class="footer-link">Beranda</a>
+        <a href="#mindset" class="footer-link">Prinsip</a>
+        <a href="#skills" class="footer-link">Keahlian</a>
+        <a href="#experience" class="footer-link">Pengalaman</a>
+        <a href="#projects" class="footer-link">Proyek</a>
+        <a href="https://github.com/heriefendi" target="_blank" rel="noopener" class="footer-link">GitHub</a>
+        <a href="https://www.linkedin.com/in/ahmad-heri-0600751a7/" target="_blank" rel="noopener" class="footer-link">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Popup -->
+  <div class="toast-notice" id="toastNotice" role="alert">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+    <span class="toast-text">Teks berhasil disalin!</span>
+  </div>
+
+  <!-- JavaScript Interaction -->
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>
-
-<script>
-function closeCurrentTab() {
-    // Buka tab baru
-    var newTab = window.open('https://heri-efendi.netlify.app/dashboard', '_blank');
-    
-    // Tutup tab saat ini jika tab baru berhasil dibuka
-    if (newTab) {
-        window.close();
-    }
-}
-</script>
